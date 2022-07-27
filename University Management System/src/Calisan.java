@@ -45,5 +45,15 @@ public class Calisan {
         System.out.println(this.getAdSoyad() + " yemekhaneye girdi !!");
     }
 
+    public static void girisYapanlar(Calisan[] loginUsers){
+        for (Calisan c: loginUsers) {
+            // c1.giris()
+            // a1.giris()
+            // m1.giris()
+            // o1.giris()
+            c.giris();
+        }
+    }
+
 }
 
