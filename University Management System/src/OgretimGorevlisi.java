@@ -26,4 +26,9 @@ public class OgretimGorevlisi extends Akademisyen{
     public String getAdSoyad(){
         return super.getAdSoyad();
     }
+
+    @Override
+    public void derseGir(String dersSaati){
+        System.out.println(this.getAdSoyad() + " öğretim görevlisi derse " + dersSaati + " giriş yaptı.");
+    }
 }
