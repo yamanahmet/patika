@@ -17,4 +17,5 @@ public class GuvenlikGorevlisi extends Memur{
     public void nobet(){
         System.out.println(this.getDepartman() + " departmanındaki " + this.getAdSoyad() + " çalışıyor!!");
     }
+
 }

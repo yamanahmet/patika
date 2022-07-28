@@ -26,5 +26,12 @@ public class Patika {
 
         o1.derseGir("10.00");
 
+        Memur asd = new GuvenlikGorevlisi("Ramazan Veli", "0532446", "a@ty.com", "IT", "09.00-17.00","Silah Kullanma");
+        GuvenlikGorevlisi guvenlikGorevlisi = (GuvenlikGorevlisi) asd;
+        gg1.nobet();
+        System.out.println(asd instanceof Memur);
+        System.out.println(asd instanceof Memur);
+
+
     }
 }
