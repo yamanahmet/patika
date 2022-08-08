@@ -65,5 +65,11 @@ public class ToolStore extends NormalLoc{
 
     public void printArmor(){
         System.out.println("Zırhlar");
+        for (Armor a : Armor.armors()) {
+            System.out.println(a.getId() + " - " + a.getName() +
+                    " <Para : " + a.getPrice() +
+                    ", Zırh : " + a.getBlock() + ">");
+
+        }
     }
 }
