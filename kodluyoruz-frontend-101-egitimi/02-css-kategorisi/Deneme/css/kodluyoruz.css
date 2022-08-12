@@ -1,0 +1,20 @@
+/*********************** layout ***********************/
+
+body {
+    background-color: rgb(207, 207, 207);
+    color: darkblue;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+h2 {
+    color: blue;
+    font-size:15px;
+}
+
+p{
+    color:coral;
+    font-size:medium
+}
