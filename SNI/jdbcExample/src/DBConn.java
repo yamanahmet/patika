@@ -18,7 +18,7 @@ public class DBConn {
 
             PreparedStatement prSt = connect.prepareStatement(prSql);
             prSt.setInt(1, 4);
-            prSt.setString(2, "Yunus");
+            prSt.setString(2, "Ahmet");
             prSt.setInt(3, 3);
             prSt.executeUpdate();
             prSt.close();
